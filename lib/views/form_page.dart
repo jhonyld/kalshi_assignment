@@ -110,7 +110,6 @@ class _FormPageState extends State<FormPage> {
                             'Enter your financial information below',
                             style: TextStyle(
                               fontSize: 14,
-
                               color: Colors.blueGrey[400],
                             ),
                             textAlign: TextAlign.center,

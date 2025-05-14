@@ -7,6 +7,7 @@ A Flutter application that calculates a user's financial wellness score based on
 The project follows the MVVM (Model-View-ViewModel) architecture pattern:
 
 ```
+assets/ # Assets
 lib/
 ├── models/
 │   └── # Models
