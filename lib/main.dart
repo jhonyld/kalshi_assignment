@@ -1,15 +1,19 @@
 import 'package:flutter/material.dart';
-import 'features/financial_wellness/presentation/pages/form_page.dart';
+import 'views/form_page.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const MyApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: FormPage());
+    return MaterialApp(
+      title: 'Financial Wellness',
+      theme: ThemeData(primarySwatch: Colors.indigo, useMaterial3: true),
+      home: const FormPage(),
+    );
   }
 }
